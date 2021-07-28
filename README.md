@@ -40,3 +40,5 @@
 - Keep the timers calculation they are correct
 
 - KPH is correct but may not work for this implementation
+
+This is proof of concept
