@@ -11,13 +11,13 @@ def getFile(Name:str):
 
 def searchDirectory():
     path = str(Path.cwd()) + '\\assets'
+    imageInpathNameRE = re.compile(r".png$")
     files = []
     for (dirpath, dirnames, filenames) in os.walk(path):
         
        continue
 
     for i in range(len(filenames)):
-        imageInpathNameRE = re.compile(r".png$")
         fileCheck = imageInpathNameRE.search(filenames[i])
         
         if fileCheck:

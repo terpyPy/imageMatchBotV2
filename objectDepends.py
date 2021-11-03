@@ -16,7 +16,7 @@ imagesDict = {
 'Restore' : image.imageObj(findFile.getFile('superRestore'), 0.7,gameWindowReg),
 'notification' : image.imageObj(findFile.getFile('potionNotification'), 0.85,gameWindowReg,True),
 'killText' : image.imageObj(findFile.getFile('hydraKills'), 0.5,gameWindowReg,True),
-'door' : image.imageObj(findFile.getFile('hdoor_v2'), 0.60, gameWindowReg, True),
+'hydraDoor' : image.imageObj(findFile.getFile('hydraDoor'), 0.55, gameWindowReg, True),
 'Tile' : image.imageObj(findFile.getFile('teleObject'), 0.80, gameWindowReg, True),
 'bossName' : image.imageObj(findFile.getFile('hydrasName'), 0.75, gameWindowReg, True),
 'bankStall' : image.imageObj(findFile.getFile('bankStall'), 0.5, gameWindowReg, True),
